@@ -13,3 +13,6 @@
 [submodule "fuel/packages/sentry"]
 	path = fuel/packages/sentry
 	url = git@github.com:cartalyst/sentry.git
+[submodule "fuel/packages/oauth2"]
+	path = fuel/packages/oauth2
+	url = git://github.com/fuel-packages/fuel-oauth2.git
