@@ -15,12 +15,16 @@ I've chosen to include Twitter Bootstrap for design and assets simply because it
 
 Available Tasks:
 ================
+I've included the following tasks to make your life a little easier. You may or may not need to run any or all of these tasks.  If you are using git, I do recommend running the "git" task
+just to make sure certain files are ignored.
 
-**Writable** - use this if you are having issues with write permissions.
+###Writable
+use this if you are having issues with write permissions.
 	
 	php oil r writable
 
-**Git** - run this to add files to update your git index to assume these files unchanged.
+###Git
+run this to add files to update your git index to assume these files unchanged.
 	
 	php oil r git
 
