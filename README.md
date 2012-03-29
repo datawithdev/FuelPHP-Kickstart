@@ -19,14 +19,12 @@ I've included the following tasks to make your life a little easier. You may or 
 just to make sure certain files are ignored.
 
 ###Writable
-use this if you are having issues with write permissions.
+use this if you are having issues with write permissions on your log, cache or config directories. This will set their permissions to 777.
 	
 	php oil r writable
 
 ###Git
-run this to add files to update your git index to assume these files unchanged.
+This will do a simple "git update-index --assume-unchanged. This way you can upload to the repo with out these files being added, causing problems down the road and so you don't have
+your DB password just hanging around in the web somewhere.
 	
 	php oil r git
-
-This will add your db config and migrations config to your assume-unchanged. This way you can upload to the repo with out these files being added, causing problems down the road and so you don't have
-your DB password just hanging around in the web somewhere.
