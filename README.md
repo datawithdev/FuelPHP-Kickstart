@@ -19,3 +19,10 @@ Available Tasks:
 **Writable** - use this if you are having issues with write permissions.
 	
 	php oil r writable
+
+**Git** - run this to add files to update your git index to assume these files unchanged.
+	
+	php oil r git
+
+This will add your db config and migrations config to your assume-unchanged. This way you can upload to the repo with out these files being added, causing problems down the road and so you don't have
+your DB password just hanging around in the web somewhere.
