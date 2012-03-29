@@ -1,4 +1,4 @@
-FUelPHP Bootstrap
+FuelPHP Bootstrap
 -----------------
 Preface this by saying that this is not an official FuelPHP application. FuelPHP Bootstrap is a maintained by me and used as a bootstrap for applications that I develop. I also use this as a
 learning tool to try out new ideas that pop into my head from time to time.
@@ -15,8 +15,7 @@ I've chosen to include Twitter Bootstrap for design and assets simply because it
 
 Available Tasks:
 ================
-* Writable - use this if you are having issues with write permissions.
+
+**Writable** - use this if you are having issues with write permissions.
 	
 	php oil r writable
-	
-
