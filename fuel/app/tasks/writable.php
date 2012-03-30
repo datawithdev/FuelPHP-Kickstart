@@ -16,9 +16,8 @@ class Writable
 {
 	public function run()
 	{
-		// let's chmod some directories
-		exec('chmod 777 '.APPPATH.'/logs');
-		exec('chmod 777 '.APPPATH.'/cache');
-		exec('chmod 777 '.APPPATH.'/config');
+		chmod(APPPATH.'/logs', 0777);
+		chmod(APPPATH.'/cache', 0777);
+		chmod(APPPATH.'/config', 0777);
 	}
 }
