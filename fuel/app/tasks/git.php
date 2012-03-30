@@ -2,7 +2,7 @@
 /**
  * Task to setup directory permissions
  *
- * @package    FuelPHP-Quickstart
+ * @package    FuelPHP-KickStart
  * @version    1.0
  * @author     Daniel Berry <daniel@danielberry.me>
  * @license    MIT License

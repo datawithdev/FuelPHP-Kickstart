@@ -9,8 +9,10 @@
  * @package  app
  * @extends  Controller
  */
-class Controller_Welcome extends Controller
+class Controller_Welcome extends Controller_Kickstart_Common
 {
+
+	var $require_login = false;
 
 	/**
 	 * The basic welcome message
@@ -20,7 +22,7 @@ class Controller_Welcome extends Controller
 	 */
 	public function action_index()
 	{
-		return Response::forge(View::forge('welcome/index'));
+		//$this->template->content = View::forge('welcome/index');
 	}
 
 	/**

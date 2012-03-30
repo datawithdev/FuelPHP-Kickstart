@@ -2,7 +2,7 @@
 /**
  * Task to setup directory permissions
  *
- * @package    FuelPHP-Quickstart
+ * @package    FuelPHP-KickStart
  * @version    1.0
  * @author     Daniel Berry <daniel@danielberry.me>
  * @license    MIT License
@@ -19,5 +19,6 @@ class Writable
 		chmod(APPPATH.'/logs', 0777);
 		chmod(APPPATH.'/cache', 0777);
 		chmod(APPPATH.'/config', 0777);
+		chmod(APPPATH.'/config/crypt.php', 0777);
 	}
 }
