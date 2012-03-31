@@ -1,0 +1,2 @@
+[Sat Mar 31 03:41:32 2012] [error] [client 127.0.0.1] PHP Fatal error:  Class 'Phoenix' not found in /home/dberry/projects/quickstart.localhost/fuel/app/modules/auth/classes/controller/register.php on line 139
+[Sat Mar 31 03:44:14 2012] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ')' in /home/dberry/projects/quickstart.localhost/fuel/app/modules/auth/views/auth/register.php on line 20

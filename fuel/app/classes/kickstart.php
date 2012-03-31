@@ -50,6 +50,9 @@ class Kickstart
 	{
 		// current module, controller, action
 		static::get_current_mca();
+
+		// get messages
+		Message::check_messages();
 	}
 
 
