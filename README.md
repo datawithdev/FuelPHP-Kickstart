@@ -50,6 +50,8 @@ This will run and update you to the latest version 2.0 of the Sentry Auth Packag
 Sentry is an awesome authentication package developed by the fellas at Cartalyst. For more information on Sentry please refer to the Sentry Website at http://sentry.cartalyst.com/
 At the time of this writing the 2.0 docs are not available on the Sentry website. New feature usage is provided in the Sentry README.md
 
+<hr />
+
 Available Tasks:
 ================
 I've included the following tasks to make your life a little easier. You may or may not need to run any or all of these tasks.  If you are using git, I do recommend running the "git" task
