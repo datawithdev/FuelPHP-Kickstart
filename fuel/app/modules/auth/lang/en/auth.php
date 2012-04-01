@@ -30,7 +30,7 @@ return array(
 	),
 
 	'messages' => array(
-		'login_required' => 'Please login to view the page you requested.',
+		'login_required' => '<h4 class="alert-header">Oops, Login Required!</h4> <p>Please login to view the requested page.</p>',
 	),
 
 	'login' => array(

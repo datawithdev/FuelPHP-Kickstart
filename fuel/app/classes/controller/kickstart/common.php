@@ -68,7 +68,7 @@ class Controller_Kickstart_Common extends Controller_Template
 			/**
 			 * set a message letting the user know they must be logged in
 			 */
-			messagege::warning('<h3 class="alert-header">Oops, Login Required!</h3> <p>Please login to view the requested page.</p>');
+			Message::warning(__('auth.messages.login_required'));
 
 			/**
 			 * redirect the user to the login page
