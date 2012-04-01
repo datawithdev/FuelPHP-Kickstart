@@ -58,11 +58,9 @@ class Kickstart_Validation
 	 * @param  array   $options  minimum & maximum values
 	 * @return bool          returns true or false
 	 */
-	public static function _validation_password($val, $options)
+	public static function _validation_password($val, $min_length = 8, $max_length = 18)
 	{
-		list($minlength, $maxlength) = explode('.', $options);
-
-		if (preg_match('/^[.a-zA-Z_0-9-!@#$%\^&*()]{'.$minlength.','.$maxlength.'}$/', $val))
+		if (preg_match('/^[.a-zA-Z_0-9-!@#$%\^&*()]{'.$min_length.','.$min_length.'}$/', $val))
 		{
 			return true;
 		}

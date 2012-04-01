@@ -11,5 +11,5 @@
 
 <p>
     Sincerely, <br />
-	<?php echo \Config::get('site.title'); ?>
+	The <?php echo \Config::get('kickstart.site.title'); ?> Team
 </p>
