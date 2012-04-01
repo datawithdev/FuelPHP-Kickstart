@@ -53,6 +53,8 @@ class Controller_Kickstart_Common extends Controller_Template
 		 * Check for Required Login
 		 * 
 		 * redirect to login if login is required and no current user exists
+		 * 
+		 * @todo add lang for login required message.
 		 */
 		if ($this->require_login === true and !Sentry::check()) {
 
@@ -64,14 +66,19 @@ class Controller_Kickstart_Common extends Controller_Template
 			Session::set('last_viewed', Uri::create());
 
 			/**
+			 * set a message letting the user know they must be logged in
+			 */
+			messagege::warning('<h3 class="alert-header">Oops, Login Required!</h3> <p>Please login to view the requested page.</p>');
+
+			/**
 			 * redirect the user to the login page
 			 * uses Response & Router
 			 */
-			Response::redirect(Router::get('auth/login'));
+			Response::redirect(Config::get('kickstart.uri.login_page'));
 		}
 
 		// call the called method
-        return call_user_func_array(array($this, 'action_' . $method), $args);
+		return call_user_func_array(array($this, 'action_' . $method), $args);
 	}
 
 

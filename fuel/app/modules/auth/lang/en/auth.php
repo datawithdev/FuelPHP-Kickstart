@@ -29,6 +29,10 @@ return array(
 		'button_reset_password' => 'Reset Your Password'
 	),
 
+	'messages' => array(
+		'login_required' => 'Please login to view the page you requested.',
+	),
+
 	'login' => array(
 		'page_title' => 'Please Login',
 		'messages' => array(

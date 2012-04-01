@@ -13,7 +13,10 @@ return array(
 		'meta' => array(
 			'keywords'    => '',
 			'description' => '',
-		)
+		),
 	),
 
+	'uri' => array(
+		'login_page' => 'auth/login',
+	),
 );
