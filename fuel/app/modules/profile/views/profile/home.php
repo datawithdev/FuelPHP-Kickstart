@@ -1,0 +1,1 @@
+Welcome Back <?php echo $user->get('metadata.first_name');
