@@ -39,7 +39,8 @@ class Controller_Password extends Controller_Module
 			$val->add('password', __('auth.fields.password'))
 				->add_rule('trim')
 				->add_rule('required')
-				->add_rule('password');
+				->add_rule('min_length', 8)
+				->add_rule('max_length', 18);
 
 			$val->add('retype_password', __('auth.fields.retype_password'))
 				->add_rule('trim')

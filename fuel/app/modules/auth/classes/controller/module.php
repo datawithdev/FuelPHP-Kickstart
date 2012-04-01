@@ -34,7 +34,7 @@ class Controller_Module extends \Controller_Kickstart_Common
 		// check to see if we are already logged in
 		if (\Sentry::check() and \Kickstart::$current_controller != 'logout')
 		{
-			\Response::redirect(\Router::get('user/landing'));
+			\Response::redirect(\Router::get('auth/landing'));
 		}
 
 		// load the user module language file

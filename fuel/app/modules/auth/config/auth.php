@@ -17,6 +17,12 @@
  */
 
 return array(
+	
+	/**
+	 * Where to redirect the user on a successful login
+	 */
+	'default_landing' => 'welcome/index',
+
 	'register' => array(
 		'email_from_address' => 'no-reply@phoenix-cms.com',
 		'email_from_name' => \Config::get('site.title'),

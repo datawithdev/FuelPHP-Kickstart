@@ -22,6 +22,8 @@ class Controller_Welcome extends Controller_Kickstart_Common
 	 */
 	public function action_index()
 	{
+		// set a page title
+		$this->template->set('page_title', 'Welcome to Kickstart!');
 		$this->template->content = View::forge('welcome/index');
 	}
 

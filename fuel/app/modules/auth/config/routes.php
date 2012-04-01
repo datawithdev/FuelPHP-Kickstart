@@ -18,7 +18,7 @@
 return array(
 	'auth/login'	  		   => 'auth/login', // the default login page
 	'auth/logout'  			   => 'auth/logout',
-	'auth/landing'             => 'user/dashboard',
+	'auth/landing'             => 'welcome/index',
 	'auth/activate'            => 'auth/activate',
 	'auth/register'            => 'auth/register',
 	'auth/password'            => 'auth/password',

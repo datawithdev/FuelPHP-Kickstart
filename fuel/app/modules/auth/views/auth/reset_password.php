@@ -10,7 +10,7 @@
 
 	    <form name="form-reset-password" id="form-reset-password" method="post" class="form-horizontal" action="">
 
-            <div class="control-group <?php echo !empty($errors['email']) ? 'error' : ''; ?>>
+            <div class="control-group <?php echo !empty($errors['email']) ? 'error' : ''; ?>">
                 <label class="control-label" for="email"><?php echo \Lang::get('auth.fields.email'); ?></label>
 
                 <div class="controls">

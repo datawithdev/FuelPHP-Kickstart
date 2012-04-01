@@ -1,6 +1,6 @@
 <p style="font-size: 18px; font-weight: bold;">
     Hi <?php echo $first_name; ?>, <br/>
-    You need to activate your <?php echo \Config::get('kickstart.site.title'); ?> account before continuing.  Please click on or paste the following URI to continue.
+    You need to activate your <?php echo \Config::get('kickstart.site.name'); ?> account before continuing.  Please click on or paste the following URI to continue.
 </p>
 
 <p> <?php echo $activation_uri; ?></p>
@@ -14,5 +14,5 @@
 
 <p>
     Sincerely, <br />
-	The <?php echo \Config::get('kickstart.site.title'); ?> Team
+	The <?php echo \Config::get('kickstart.site.name'); ?> Team
 </p>

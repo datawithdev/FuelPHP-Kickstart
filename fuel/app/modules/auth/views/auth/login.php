@@ -5,7 +5,7 @@
         </div>
 
         <!-- sysmessage if any. !-->
-        <?php Message::render(array(), array('notfication')); ?>
+        <?php echo Message::render(); ?>
 
         <form name="form-register" id="form-register" method="post" class="form-horizontal" action="">
 
